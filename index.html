@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Imitating Twitter</title>
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="javascript.js"></script>
+</head>
+<body>
+  <h1>Widget Imitation</h1>
+  <div class="fakeWidget">
+    <div class="image">
+      <img src="http://placekitten.com/50/50" alt="kitten">
+    </div>
+    <div class="followButton">
+      <a href="https://twitter.com/twidder_app" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">
+        Follow @twidder_app
+      </a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+      </script>
+    </div>
+      <div class="name">
+        Mr. Kitten
+      </div>
+      <div class="handle">
+        @snuggles
+      </div>
+    <div class="tweet">
+      Meow meow meow meow. #cats
+    </div>
+    <div class="line">
+    </div>
+    <div class="time">
+      1:57 AM - 23 Jun 2012
+    </div>
+    <div class="icons">
+      <div class="reply icon unclicked"><i class="fa fa-reply"></i></div>
+      <div class="retweet icon unclicked"><i class="fa fa-retweet"></i></div>
+      <div class="star icon unclicked"><i class="fa fa-star"></i></div>
+    </div>
+  </div>
+  <div class="realWidget">
+    <blockquote class="twitter-tweet" lang="en">
+      <p>
+        i&#39;m making my classic homestyle shrimp cocktail where i use fritos instead of shrimp and ketchup instead of cocktail sauce. magnifique!!!
+      </p>
+      &mdash; jon hendren (@fart) 
+      <a href="https://twitter.com/fart/statuses/429802543603253248">February 2, 2014</a>
+    </blockquote>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+  <h1>Tweet Imitation</h1>
+  <div class="fakeComposeTweet">
+    <div class="top">
+      <p>Compose new Tweet</p>
+    </div>
+    <div class="middle">
+      <form>
+        <textarea name="composeTweet" class="entry"></textarea>
+        <div class="submitTweet">
+          <button class="submitButton" type="submit" value="Submit"><i class="fa fa-pencil-square-o"></i> Tweet</button>
+        </div>
+      </form>
+      </div>
+    </div>
+  <div class="picture">
+    <img src="picture.png">
+  </div>
+</body>
+</html>
+
+<!-- <span class="glyphicon glyphicon-edit"></span> -->
+</body>
+</html>
